@@ -2,7 +2,7 @@
   "mcpServers": {
     "droppy": {
       "type": "http",
-      "url": "https://mcp.hydromix.io/mcp",
+      "url": "https://mcp.hydromix.io/mcp?shop=${user_config.shop_domain}",
       "headers": {
         "Authorization": "Bearer ${user_config.license_key}"
       }

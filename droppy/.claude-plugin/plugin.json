@@ -16,6 +16,13 @@
       "description": "La clave se gestiona según el cliente; Droppy no garantiza cifrado del almacenamiento.",
       "required": true,
       "sensitive": true
+    },
+    "shop_domain": {
+      "type": "string",
+      "title": "Dominio de tu tienda Shopify",
+      "description": "Tu tienda, en formato <handle>.myshopify.com (p. ej. mitienda.myshopify.com). Fija la licencia a esta tienda y evita que haya que indicarla en cada operación.",
+      "required": true,
+      "sensitive": false
     }
   }
 }

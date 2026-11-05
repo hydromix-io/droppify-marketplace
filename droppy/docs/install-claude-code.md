@@ -1,0 +1,3 @@
+# Instalación en Claude Code
+
+Instala Droppy desde el marketplace (/plugin marketplace add <URL_Catalogo> y /plugin install droppy@Hydromix) o carga la carpeta con claude --plugin-dir <ruta-del-plugin>. El plugin trae el conector Droppy MCP preconfigurado hacia https://mcp.hydromix.io/mcp; solo tienes que pegar tu clave de licencia (campo license_key) y autorizar el conector. Instalar el plugin no concede permisos de tienda. La generación base no incluye hooks: solo Claude Code puede recibirlos mediante --hooks explícito, como freno blando. Valida con claude plugin validate <ruta> si el binario está disponible.

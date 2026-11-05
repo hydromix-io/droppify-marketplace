@@ -1,0 +1,3 @@
+# Garantías y controles
+
+Droppy analiza información de un negocio de dropshipping Shopify en la UE y propone mejoras. Si Droppy MCP está autorizado, consulta el plan; si no, degrada a análisis y propuestas. Las acciones sensibles siguen análisis y recomendación → droppy_propose_action → aprobación individual con droppy_request_approval → confirmación autorizada por el servidor con droppy_confirm_approval → ejecución externa → droppy_report_execution. No hay autoejecución ni autoaprobación. soft_execution aplica licencia, plan, límites y auditoría sobre las operaciones del servidor, pero no ejecuta Shopify ni controla conectores externos.

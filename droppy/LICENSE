@@ -1,0 +1,80 @@
+Droppy Plugin License
+Copyright (c) 2026 Droppify Agency (https://droppify.agency). All rights reserved.
+
+DRAFT — pending legal review.
+
+1. Definitions
+   "Software" means this Droppy plugin package: its plugin manifest,
+   agent and skill definitions, configuration, documentation, and any
+   accompanying files distributed in this folder.
+   "Droppy Service" means the hosted service operated by Droppify Agency
+   at https://mcp.hydromix.io (and related endpoints) that the Software
+   connects to and that provides Droppy's functionality.
+   "Licensor" means Droppify Agency, owner of https://droppify.agency.
+
+2. Intellectual property
+   The Software, the Droppy Service, the "Droppy" and "Droppify" names
+   and logos, and all associated functionality, know-how, prompts,
+   skills, and workflows are the exclusive intellectual property of the
+   Licensor and are protected by applicable law. No ownership is
+   transferred by this license. The Software is a thin client: Droppy's
+   value and know-how reside in the Droppy Service and are not contained
+   in this package.
+
+3. Grant of use (conditioned on a paid license)
+   Subject to this license, the Licensor grants you a personal,
+   non-exclusive, non-transferable, revocable right to install and run
+   the Software solely to connect to the Droppy Service, AND ONLY if you
+   have acquired and maintain a valid, active Droppy license purchased
+   from the Licensor at https://droppify.agency. Without a valid license
+   key, the Software does not function: the Droppy Service rejects
+   unauthenticated access. Use of the Software for any purpose other than
+   connecting an authorized, licensed user to the Droppy Service is not
+   permitted.
+
+4. Permitted distribution
+   The Licensor authorizes Anthropic and its official plugin directory,
+   marketplaces, and surfaces to reproduce, display, and distribute the
+   Software to users for the purpose of installing it in Claude, as
+   contemplated by the Anthropic Software Directory Terms. Users may
+   install the Software through those channels at no charge; use of
+   Droppy's functionality still requires a paid license per Section 3.
+
+5. Restrictions
+   You may not: (a) resell, sublicense, rent, or commercially
+   redistribute the Software outside the channels authorized in
+   Section 4; (b) modify, adapt, translate, decompile, reverse engineer,
+   or create derivative works of the Software or the Droppy Service,
+   except where such restriction is prohibited by law; (c) remove or
+   alter any proprietary notices; (d) use the Software to build or assist
+   a competing product; (e) circumvent, probe, or attempt to bypass the
+   license, plan, limit, or audit controls of the Droppy Service; or
+   (f) use the "Droppy"/"Droppify" names or logos except to identify the
+   unmodified Software.
+
+6. Data and privacy
+   The Software connects to the Droppy Service at https://mcp.hydromix.io.
+   See the privacy policy at https://droppify.agency for what data is
+   processed and how. Your use of the Droppy Service is also governed by
+   the terms published at https://droppify.agency.
+
+7. Termination
+   This license and your right to use the Software terminate
+   automatically if you breach any term, or when your Droppy license
+   expires, is revoked, or lapses. Upon termination you must stop using
+   and remove the Software.
+
+8. No warranty
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND
+   NON-INFRINGEMENT.
+
+9. Limitation of liability
+   TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE LICENSOR SHALL NOT BE
+   LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR
+   PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS OR DATA, ARISING FROM OR
+   RELATED TO THE SOFTWARE.
+
+10. Contact
+    Droppify Agency — https://droppify.agency — support@droppify.agency

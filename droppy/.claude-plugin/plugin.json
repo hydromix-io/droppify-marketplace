@@ -1,7 +1,7 @@
 {
   "name": "droppy",
   "displayName": "Droppy",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Droppy ayuda a un dropshipper de Shopify en la UE a analizar productos, competencia, rentabilidad, anuncios, stock, precios, páginas de producto y KPIs, y a proponer mejoras y contenidos. Las acciones sensibles requieren aprobación individual; su servidor MCP protegido aplica licencia, plan, límites y auditoría. Droppy no ejecuta automáticamente ni sustituye asesoramiento legal o fiscal.",
   "license": "LicenseRef-Droppify-Proprietary",
   "author": {

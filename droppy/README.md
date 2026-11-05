@@ -17,7 +17,7 @@ Las acciones sensibles siguen análisis y recomendación → droppy_propose_acti
 - Agente: Droppy (la clave técnica del plugin y el servidor sigue siendo droppy).
 - Conector humano-documental: Droppy MCP; en .mcp.json la clave soportada es mcpServers.droppy.
 - Diez skills operativas de nivel 1; el contenido protegido lo sirve el servidor autorizado.
-- Conector MCP HTTPS en https://mcp.hydromix.io/mcp, sin secretos literales.
+- Conector MCP HTTPS en https://mcp.hydromix.io/mcp?shop=${user_config.shop_domain}, sin secretos literales.
 
 Skills disponibles:
 - /droppy:analisis-competencia-ecommerce
@@ -39,21 +39,3 @@ Skills disponibles:
 La distribución Desktop no incluye hooks. Si la versión/interfaz de Claude Desktop admite cargar plugins, puedes intentar importar este ZIP; esa carga, la UI, userConfig y el conector no se han verificado. Si necesitas la variante Claude Code con el hook, solicítala explícitamente al generador con --harness claude-code --hooks; no se incluye en este ZIP Desktop.
 
 Instalar el ZIP no autoriza la licencia, no conecta Shopify y no concede permisos automáticamente. La UI de Desktop, OAuth, elicitation y el endpoint fixture no se han verificado.
-
-## Instalación
-
-Requiere una licencia activa de Droppy adquirida en https://droppify.agency. Instalar el plugin es gratis; sin una clave de licencia válida el conector Droppy MCP no responde.
-
-Claude Code (una línea):
-
-```
-/plugin install droppy --marketplace hydromix-io/droppify-marketplace
-```
-
-Claude Desktop / Claude web (Teams):
-
-1. Customize > Plugins > Add > Add marketplace, y añade el repositorio `hydromix-io/droppify-marketplace`.
-2. Instala **droppy** desde el Directorio.
-3. Pega tu clave de licencia (`csk_live_...`) en el campo "Clave de licencia" del plugin.
-
-Privacidad: el plugin se conecta al servicio Droppy MCP en https://mcp.hydromix.io. Consulta la política de privacidad en https://droppify.agency/legal/privacidad.

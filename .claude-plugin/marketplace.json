@@ -10,7 +10,7 @@
       "name": "droppy",
       "source": "./droppy",
       "description": "Droppy: agente de dropshipping Shopify UE. Analiza productos, competencia, rentabilidad, anuncios, stock, precios, paginas de producto y KPIs; propone mejoras y contenidos. Las acciones sensibles requieren aprobacion. Requiere licencia activa de https://droppify.agency.",
-      "version": "0.1.1"
+      "version": "0.1.2"
     }
   ]
 }
